@@ -4,6 +4,9 @@
 
 dictionary = open('engmix.txt')
 
+print(dictionary[0])
+
+'''
 from random import randint
 from ggame import *
 
@@ -127,3 +130,4 @@ if __name__ == '__main__':
         for ch in 'abcdefghijklmnopqrstuvwxyz':
             App().listenKeyEvent('keydown',ch,keyPress)
         App().run()
+'''
