@@ -3,11 +3,11 @@
 #longestDictionaryWord.py
 
 dictionary = open('engmix.txt')
-high = 'a'
+
+highword = 'a'
 for word in dictionary:
-    l = 0
-    for w in word:
-        if l < len(w):
-            l = len(w)
-            high = w
-print(high)
+    highnum = 0
+    if highnum < len(w):
+        highnum = len(w)
+        highword = word
+print(highword)
