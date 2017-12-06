@@ -4,4 +4,5 @@
 
 dictionary = open('engmix.txt')
 
-
+for i in range(1,23):
+    
