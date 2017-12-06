@@ -4,7 +4,7 @@
 
 dictionary = open('engmix.txt')
 
-for i in range(1,23):
+for i in range(2,24):
     num = 0
     for word in dictionary:
         if len(word) == i:
