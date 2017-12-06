@@ -3,7 +3,7 @@
 #longestDictionaryWord.py
 
 dictionary = open('engmix.txt')
-high = a
+high = 'a'
 for word in dictionary:
     l = 0
     for w in word:
