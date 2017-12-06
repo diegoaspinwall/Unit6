@@ -9,4 +9,4 @@ for i in range(1,23):
     for word in dictionary:
         if len(word) == i:
             num+=1
-    
+    print('There are', num, i, 'letter words')
