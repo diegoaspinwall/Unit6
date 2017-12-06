@@ -5,5 +5,5 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if 'max' in word:
+    if 'zz' in word:
         print(word.strip())
