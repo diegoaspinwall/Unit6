@@ -6,7 +6,7 @@ dictionary = open('engmix.txt')
 
 wordCount = 0
 for word in dictionary:
-    if 'smed' in word:
+    if 'greg' in word:
         print(word)
     wordCount += 1
 
