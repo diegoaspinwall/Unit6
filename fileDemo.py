@@ -8,4 +8,4 @@ wordCount = 0
 for word in dictionary:
     wordCount += 1
 
-print('There are',wordCount, 'words in the dictionary)
+print('There are',wordCount, 'words in the dictionary')
