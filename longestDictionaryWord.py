@@ -10,5 +10,5 @@ for word in dictionary:
     if highnum < len(word):
         highnum = len(word)
         highword = word
-print(highword)
+print(highword.strip())
 print(len(highword))
