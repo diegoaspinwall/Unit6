@@ -5,8 +5,8 @@
 dictionary = open('engmix.txt')
 
 highword = 'a'
+highnum = 0
 for word in dictionary:
-    highnum = 0
     if highnum < len(word):
         highnum = len(word)
         highword = word
