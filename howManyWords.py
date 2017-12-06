@@ -5,5 +5,8 @@
 dictionary = open('engmix.txt')
 
 for i in range(1,23):
+    num = 0
     for word in dictionary:
-        
+        if len(word) == i:
+            num+=1
+    
