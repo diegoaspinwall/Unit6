@@ -11,3 +11,4 @@ for word in dictionary:
         highnum = len(word)
         highword = word
 print(highword)
+print(len(highword))
