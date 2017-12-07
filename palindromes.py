@@ -8,7 +8,7 @@ for word in dictionary:
     total = 0
     word = word.strip()
     for i in range(0,len(word)):
-        if word[i] == word[len(word)-i]:
+        if word[i] == word[(len(word)-1)-i]:
             total += 1
     if total == len(word):
         print(word)
