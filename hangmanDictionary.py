@@ -9,9 +9,6 @@ diclist = []
 for word in dictionary:
     diclist.append(word.strip())
 
-print(diclist[0])
-
-'''
 from random import randint
 from ggame import *
 
@@ -40,7 +37,7 @@ mouth = LineAsset(25,0,blackline)
 
 #Should take no arguments. The function should choose a random word.
 def pickWord():
-    return(dictionary[randint(0,84099)].strip())
+    return(diclist[randint(0,84099)])
 
 #Should take no arguments. The function should return True if all the letters in the word have been guessed and False otherwise.
 def wordComplete():
@@ -135,4 +132,3 @@ if __name__ == '__main__':
         for ch in 'abcdefghijklmnopqrstuvwxyz':
             App().listenKeyEvent('keydown',ch,keyPress)
         App().run()
-'''
