@@ -9,5 +9,7 @@ reverse = []
 for word in filechoice:
     reverse.append(word.strip())
 
+reverse.reverse()
+
 for line in filechoice:
     print(line.strip())
