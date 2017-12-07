@@ -5,6 +5,9 @@
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 
 dictionary = open('engmix.txt')
-
+'''
 for word in dictionary:
     alphabet.index(word[0])
+'''
+
+print(alphabet.index('b'))
