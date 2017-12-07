@@ -5,4 +5,5 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word == word.reverse()
+    if word == word.reverse():
+        print(word)
