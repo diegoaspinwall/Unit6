@@ -2,9 +2,9 @@
 #12-7-17
 #longShort.py
 
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
 dictionary = open('engmix.txt')
 
-diclist = []
-
 for word in dictionary:
-    diclist.append(word.strip())
+    alphabet.index(word[0])
