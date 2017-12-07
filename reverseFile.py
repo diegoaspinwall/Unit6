@@ -7,6 +7,6 @@ filechoice = open(input('Enter a file: '))
 reverse = []
 
 for word in filechoice:
-    reverse.append(word)
+    reverse.append(word.strip())
 
 print(reverse)
