@@ -11,5 +11,5 @@ for word in filechoice:
 
 newlist.reverse()
 
-for line in filechoice:
+for line in newlist:
     print(line.strip())
