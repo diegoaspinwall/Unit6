@@ -4,7 +4,12 @@
 
 dictionary = open('engmix.txt')
 
-print(dictionary[0])
+diclist = []
+
+for word in dictionary:
+    diclist.append(word.strip())
+
+print(diclist[0])
 
 '''
 from random import randint
