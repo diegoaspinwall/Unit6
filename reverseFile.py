@@ -4,12 +4,12 @@
 
 filechoice = open(input('Enter a file: '))
 
-reverse = []
+newlist = []
 
 for word in filechoice:
-    reverse.append(word.strip())
+    newlist.append(word.strip())
 
-reverse.reverse()
+newlist.reverse()
 
 for line in filechoice:
     print(line.strip())
