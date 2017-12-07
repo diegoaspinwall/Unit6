@@ -10,4 +10,4 @@ for word in filechoice:
     reverse.append(word.strip())
 
 for line in filechoice:
-    print(line)
+    print(line.strip())
