@@ -4,8 +4,9 @@
 
 dictionary = open('engmix.txt')
 
-for word.strip() in dictionary:
+for word in dictionary:
     total = 0
+    word = word.strip()
     for i in len(word):
         if word[i] == word[i*(-1)-1]:
             total += 1
