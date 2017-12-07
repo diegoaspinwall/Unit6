@@ -2,7 +2,7 @@
 #12-7-17
 #reverseFile.py
 
-filechoice = input('Enter a file: ')
+filechoice = open(input('Enter a file: '))
 
 reverse = []
 
