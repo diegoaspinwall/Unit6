@@ -4,7 +4,7 @@
 
 dictionary = open('engmix.txt')
 
-for word in dictionary:
+for word.strip() in dictionary:
     total = 0
     for i in len(word):
         if word[i] == word[i*(-1)-1]:
