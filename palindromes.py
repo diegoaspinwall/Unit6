@@ -4,11 +4,8 @@
 
 dictionary = open('engmix.txt')
 
-diclist = []
-
 for word in dictionary:
-    diclist.append(word.strip())
-
-for word in diclist:
-    if word == word.reverse():
-        print(word)
+    for i in len(word):
+        if word[i] == word[i*(-1)-1]:
+            
+    print(word)
