@@ -5,7 +5,9 @@
 dictionary = open('engmix.txt')
 
 for word in dictionary:
+    total = 0
     for i in len(word):
         if word[i] == word[i*(-1)-1]:
-            
-    print(word)
+            total += 1
+    if total == len(word):
+        print(word)
