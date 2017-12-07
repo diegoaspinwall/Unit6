@@ -9,6 +9,6 @@ diclist = []
 for word in dictionary:
     diclist.append(word.strip())
 
-for word in dictionary:
+for word in diclist:
     if word == word.reverse():
         print(word)
