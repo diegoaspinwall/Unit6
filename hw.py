@@ -47,5 +47,4 @@ for word in dictionary:
     if highnum < numb:
         highnum = numb
         highword = word
-print(highword.strip())
-print(highnum)
+print(highword.strip(), 'is the word with the most', b+"'s")
