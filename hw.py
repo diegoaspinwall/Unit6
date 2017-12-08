@@ -3,7 +3,7 @@
 #hw.py
 
 dictionary = open('engmix.txt')
-'''
+
 word = input('Word: ')
 
 yes = False
@@ -33,7 +33,7 @@ file = open('reverseFile.py')
 
 for word in file:
     print(word.strip(), '!')
-'''
+
 #4
 letter = input('Enter a letter: ')
 
