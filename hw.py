@@ -16,7 +16,7 @@ if yes == True:
     print(word,'is in the dictionary')
 else:
     print(word, 'is not in the dictionary')
-'''
+
 
 diclist = []
 
@@ -26,3 +26,10 @@ for word in dictionary:
 num = int(input('Enter a number: '))
 
 print(diclist[num-1])
+'''
+
+file = open('reverseFile.py')
+
+
+for word in file:
+    print(word.strip(), '!')
