@@ -26,9 +26,23 @@ for word in dictionary:
 num = int(input('Enter a number: '))
 
 print(diclist[num-1])
-'''
+
 
 file = open('reverseFile.py')
 
 for word in file:
     print(word.strip(), '!')
+'''
+
+letter = input('Enter a letter')
+
+highword = ''
+highnum = 0
+for word in dictionary:
+    for let in word:
+        
+    if highnum < len(word):
+        highnum = len(word)
+        highword = word
+print(highword.strip())
+print(len(highword))
