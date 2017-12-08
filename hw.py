@@ -3,7 +3,7 @@
 #hw.py
 
 dictionary = open('engmix.txt')
-
+'''
 word = input('Word: ')
 
 yes = False
@@ -16,3 +16,13 @@ if yes == True:
     print(word,'is in the dictionary')
 else:
     print(word, 'is not in the dictionary')
+'''
+
+diclist = []
+
+for word in dictionary:
+    diclist.append(word.strip())
+
+num = int(input('Enter a number: '))
+
+print(diclist[num-1])
