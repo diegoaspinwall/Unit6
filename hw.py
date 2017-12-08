@@ -34,7 +34,7 @@ for word in file:
     print(word.strip(), '!')
 '''
 
-letter = input('Enter a letter')
+letter = input('Enter a letter: ')
 
 highword = ''
 highnum = 0
