@@ -3,11 +3,12 @@
 #hw.py
 
 dictionary = open('engmix.txt')
-'''
+
 word = input('Word: ')
 
 yes = False
 
+#1
 for l in dictionary:
     if l.strip() == word:
         yes = True
@@ -17,7 +18,7 @@ if yes == True:
 else:
     print(word, 'is not in the dictionary')
 
-
+#2
 diclist = []
 
 for word in dictionary:
@@ -27,13 +28,13 @@ num = int(input('Enter a number: '))
 
 print(diclist[num-1])
 
-
+#3
 file = open('reverseFile.py')
 
 for word in file:
     print(word.strip(), '!')
-'''
 
+#4
 letter = input('Enter a letter: ')
 
 highword = ''
