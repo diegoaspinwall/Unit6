@@ -43,8 +43,8 @@ for word in dictionary:
     for let in word:
         if let==letter:
             numb+=1
-    if highnum < len(word):
-        highnum = len(word)
+    if highnum < numb:
+        highnum = numb
         highword = word
 print(highword.strip())
-print(len(highword))
+print(highnum)
