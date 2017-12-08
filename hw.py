@@ -3,7 +3,7 @@
 #hw.py
 
 dictionary = open('engmix.txt')
-
+'''
 word = input('Word: ')
 
 yes = False
@@ -33,7 +33,7 @@ file = open('reverseFile.py')
 
 for word in file:
     print(word.strip(), '!')
-
+'''
 #4
 letter = input('Enter a letter: ')
 
@@ -47,4 +47,4 @@ for word in dictionary:
     if highnum < numb:
         highnum = numb
         highword = word
-print(highword.strip(), 'is the word with the most', b+"'s")
+print(highword.strip(), 'is the word with the most', letter+"'s")
