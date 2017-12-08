@@ -7,5 +7,5 @@ dictionary = open('engmix.txt')
 word = input('Word: ')
 
 for l in dictionary:
-    if word == l:
+    if l == word:
         print('Yes')
