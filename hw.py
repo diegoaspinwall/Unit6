@@ -39,8 +39,10 @@ letter = input('Enter a letter')
 highword = ''
 highnum = 0
 for word in dictionary:
+    numb = 0
     for let in word:
-        
+        if let==letter:
+            numb+=1
     if highnum < len(word):
         highnum = len(word)
         highword = word
