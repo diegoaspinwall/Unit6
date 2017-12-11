@@ -13,9 +13,9 @@ for word in dictionary:
     word = word.strip
     if word != '':
         if len(word) > len(longest[alphabet.index(word[0])]):
-            longest.append(word)
+            longest[alphabet.index(word[0])] = word
         if len(word) < len(shortest[alphabet.index(word[0])]):
-            shortest.append(word)
+            shortest[alphabet.index(word[0])] = word
 
 for i in range(0,26):
     print(shortest[i])
