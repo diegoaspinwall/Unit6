@@ -10,11 +10,12 @@ shortest = ['']*26
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word.strip() != '':
-        if len(word.strip()) > len(longest[alphabet.index(word.strip()[0])]):
-            longest.append(word.strip())
-        if len(word.strip()) < len(shortest[alphabet.index(word.strip()[0])]):
-            shortest.append(word.strip())
+    word = word.strip
+    if word != '':
+        if len(word) > len(longest[alphabet.index(word[0])]):
+            longest.append(word)
+        if len(word) < len(shortest[alphabet.index(word[0])]):
+            shortest.append(word)
 
 for i in range(0,26):
     print(shortest[i])
