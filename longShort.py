@@ -10,7 +10,7 @@ shortest = ['']*26
 dictionary = open('engmix.txt')
 
 for word in dictionary:
-    if word != '':
+    if word.strip() != '':
         if len(word.strip()) > len(longest[alphabet.index(word.strip()[0])]):
             longest.append(word.strip())
         if len(word.strip()) < len(shortest[alphabet.index(word.strip()[0])]):
