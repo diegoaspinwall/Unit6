@@ -7,7 +7,7 @@ dictionary = open('engmix.txt')
 ans = []
 
 for word in dictionary:
-    if word[0] == 'd' and word[-1] == 'a':
+    if word.strip()[0] == 'd' and word.strip()[-1] == 'a':
         ans.append(word.strip())
 
 for wrd in ans:
