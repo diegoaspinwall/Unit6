@@ -15,5 +15,7 @@ for word in dictionary:
     if len(word.strip()) < len(shortest[alphabet.index[word.strip()[0]]]):
         shortest.append(word.strip())
 
+print(longest)
+print(shortest)
 
 print(alphabet.index('b'))
