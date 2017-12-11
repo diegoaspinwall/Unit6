@@ -17,5 +17,3 @@ for word in dictionary:
 
 print(longest)
 print(shortest)
-
-print(alphabet.index('b'))
