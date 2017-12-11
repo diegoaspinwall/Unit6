@@ -16,5 +16,7 @@ for word in dictionary:
         if len(word.strip()) < len(shortest[alphabet.index(word.strip()[0])]):
             shortest.append(word.strip())
 
-print(longest)
-print(shortest)
+for i in range(0,26):
+    print(longest[i])
+    print(shortest[i])
+    print('')
