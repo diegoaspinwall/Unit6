@@ -25,6 +25,7 @@ print(wordz)
 #Program 2
 
 dictionary = open('engmix.txt')
+
 wordCount = 0
 for word in dictionary:
     if word != '':
