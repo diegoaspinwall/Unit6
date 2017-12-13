@@ -10,13 +10,13 @@ wordz = []
 
 for word in dictionary:
     word = word.strip()
-    c=0
-    p=0
+    clet=0
+    plet=0
     if 'c' in word:
-        c+=1
+        clet+=1
     if 'p' in word:
-        p+=1
-    if c==3 and p==2:
+        plet+=1
+    if clet==3 and plet==2:
         wordz.append(word)
         
 print(wordz)
