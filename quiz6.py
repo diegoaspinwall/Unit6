@@ -12,10 +12,11 @@ for word in dictionary:
     word = word.strip()
     clet=0
     plet=0
-    if 'c' in word:
-        clet+=1
-    if 'p' in word:
-        plet+=1
+    for let in word:
+        if let == 'c':
+            clet+=1
+        if let == 'p':
+            plet+=1
     if clet==3 and plet==2:
         wordz.append(word)
         
