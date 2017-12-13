@@ -8,6 +8,7 @@ dictionary = open('engmix.txt')
 wordz = []
 
 for word in dictionary:
+    word = word.strip()
     c=0
     p=0
     if 'c' in word:
@@ -15,6 +16,6 @@ for word in dictionary:
     if 'p' in word:
         p+=1
     if c==3 and p==2:
-        wordz.append(word.strip())
+        wordz.append(word)
 
 print(wordz)
