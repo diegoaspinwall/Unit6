@@ -72,5 +72,5 @@ diclist = []
 for word in dictionary:
     diclist.append(word.strip())
 
-print(diclist[0])
+print(diclist[84100/2-1])
 
