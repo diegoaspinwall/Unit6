@@ -19,8 +19,9 @@ for word in dictionary:
             plet+=1
     if clet==3 and plet==2:
         wordz.append(word)
-        
-print(wordz)
+
+for thing in wordz:
+    print(thing)
 
 
 #Program 2
