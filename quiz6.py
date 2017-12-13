@@ -52,11 +52,13 @@ for word in dictionary:
 
 dictionary = open('engmix.txt')
 
-wordCount = 0
-for word in dictionary:
-    if 'max' in word:
-        print(word.strip())
-    wordCount += 1
+letter = input('Enter letter: ')
 
-print('There are',wordCount, 'words in the dictionary')
+total = 84100
+
+for word in dictionary:
+    if letter in word:
+        total = total-1
+
+print(total, 'words do not have',letter)
 
