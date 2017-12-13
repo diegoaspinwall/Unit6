@@ -27,10 +27,10 @@ print(wordz)
 dictionary = open('engmix.txt')
 wordCount = 0
 for word in dictionary:
-    word = word.strip()
-    if word[0]:
-        print(word.strip())
-    wordCount += 1
+    if word != '':
+        word = word.strip()
+        if word[0] == 'r':
+            wordCount += 1
 
-print('There are',wordCount, 'words in the dictionary')
+print('There are',wordCount, 'words that start with r in the dictionary')
 
