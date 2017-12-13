@@ -3,7 +3,7 @@
 #quiz6.py
 
 #Program 1
-'''
+
 dictionary = open('engmix.txt')
 
 wordz = []
@@ -20,7 +20,7 @@ for word in dictionary:
         wordz.append(word)
         
 print(wordz)
-'''
+
 
 #Program 2
 '''
@@ -64,7 +64,7 @@ print(total, 'words do not have',letter)
 '''
 
 #Program 5
-
+'''
 dictionary = open('engmix.txt')
 
 diclist = []
@@ -73,4 +73,4 @@ for word in dictionary:
     diclist.append(word.strip())
 
 print(diclist[84100/2-1])
-
+'''
