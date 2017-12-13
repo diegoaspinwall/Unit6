@@ -43,6 +43,7 @@ dictionary = open('engmix.txt')
 num = int(input('Number: '))
 
 for word in dictionary:
+    word = word.strip
     if len(word) == num:
         print(word)
         break
