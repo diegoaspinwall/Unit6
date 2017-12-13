@@ -49,7 +49,7 @@ for word in dictionary:
 '''
 
 #Program 4
-
+'''
 dictionary = open('engmix.txt')
 
 letter = input('Enter letter: ')
@@ -61,4 +61,16 @@ for word in dictionary:
         total = total-1
 
 print(total, 'words do not have',letter)
+'''
+
+#Program 5
+
+dictionary = open('engmix.txt')
+
+diclist = []
+
+for word in dictionary:
+    diclist.append(word.strip())
+
+print(diclist[0])
 
