@@ -3,7 +3,7 @@
 #quiz6.py
 
 #Program 1
-
+'''
 dictionary = open('engmix.txt')
 
 wordz = []
@@ -22,7 +22,7 @@ for word in dictionary:
 
 for thing in wordz:
     print(thing)
-
+'''
 
 #Program 2
 '''
