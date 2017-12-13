@@ -37,7 +37,7 @@ print('There are',wordCount, 'words that start with r in the dictionary')
 '''
 
 #Program 3
-
+'''
 dictionary = open('engmix.txt')
 
 num = int(input('Number: '))
@@ -46,4 +46,17 @@ for word in dictionary:
     if len(word) == num+1:
         print(word)
         break
+'''
+
+#Program 4
+
+dictionary = open('engmix.txt')
+
+wordCount = 0
+for word in dictionary:
+    if 'max' in word:
+        print(word.strip())
+    wordCount += 1
+
+print('There are',wordCount, 'words in the dictionary')
 
