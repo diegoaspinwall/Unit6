@@ -53,15 +53,15 @@ def wordComplete():
 #Should take one argument, the number of incorrect guesses. The function should print out a new part of the body based on how many wrong guesses have occurred.
 def printHangman(incguesses):
     if incguesses==1:
-        Sprite(head, (200,100))
+        Sprite(head, (175,80))
     if incguesses==2:
-        Sprite(arm2, (200,150))
+        Sprite(arm2, (180,150))
     if incguesses==3:
         Sprite(arm, (200,150))
     if incguesses==4:
         Sprite(torso, (200,150))
     if incguesses==5:
-        Sprite(leg, (200,200))
+        Sprite(leg, (180,200))
     if incguesses==6:
         Sprite(leg2, (200,200))
         Sprite(eye, (185,85))
